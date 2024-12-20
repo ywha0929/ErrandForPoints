@@ -5,30 +5,29 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ParentMenuActivity">
+    tools:context=".CheckErrandsActivity">
 
-    <Button
-        android:id="@+id/btnErrandCheck"
-        android:layout_width="300dp"
-        android:layout_height="150dp"
-        android:textSize="40dp"
-        android:text="Check Errands"
+    <ListView
+        android:id="@+id/listCheckErrand"
+        android:layout_width="408dp"
+        android:layout_height="632dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.256" />
+        app:layout_constraintVertical_bias="0.02" />
 
     <Button
-        android:id="@+id/btnPointCheck"
-        android:layout_width="300dp"
-        android:layout_height="150dp"
-        android:text="Check Points"
+        android:id="@+id/btnAddErrand"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:text="+"
         android:textSize="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.66" />
+        app:layout_constraintVertical_bias="0.976" />
 </androidx.constraintlayout.widget.ConstraintLayout>

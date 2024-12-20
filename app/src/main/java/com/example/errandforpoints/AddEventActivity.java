@@ -44,6 +44,7 @@ public class AddEventActivity extends AppCompatActivity {
             public void onClick(View view) {
                 int year = datePicker.getYear();
                 int month = datePicker.getMonth();
+                month+=1;
                 Log.d("TAG", "month: " + month);
                 int date = datePicker.getDayOfMonth();
                 int hour = timePicker.getHour();
